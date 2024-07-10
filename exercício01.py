@@ -1,52 +1,26 @@
 #Questão 01
-# for i in range(1, 100+1, 1):
-#     print(i, end = (","))
+for i in range(1, 100+1, 1):
+    print(i, end = (","))
 
 #Questão 02
-# for i in range(100, 1-1, - 1):
-#     print(i, end=(" ,"))
+for i in range(100, 1-1, - 1):
+    print(i, end=(" ,"))
 
 #Questão 03
 
-# var1 = int(input("Digite o primeiro valor: "))
-# var2 = int(input("Digite o segundo valor: "))
+var1 = int(input("Digite o primeiro valor: "))
+var2 = int(input("Digite o segundo valor: "))
 
-# varSoma = 0
+varSoma = 0
 
-<<<<<<< HEAD
-# for i in range (var1, var2 +1):
-    
-#     print(i, end=(","))
-#     varSoma += i
-   
-# print("o valor do somatorio: ", varSoma)
-
-#Questão 05
-=======
 for i in range (var1, var2 +1):
-
+    
     print(i, end=(","))
     varSoma += i
-
+   
 print("o valor do somatorio: ", varSoma)
 
-#Questão 04
-
-n = 10
-lista_de_numeros = []
-
-for i in range(n):
-    numeros = int(input('Digite os números da lista:'))
-    lista_de_numeros.append(numeros)
-
-soma = sum(lista_de_numeros)
-print(soma)
-
-
-
-
-
->>>>>>> 7e85ba628365ffd80008779ee394e7b3ac2ded4f
+#Questão 05
 
 valor_somatorio = 0
 
