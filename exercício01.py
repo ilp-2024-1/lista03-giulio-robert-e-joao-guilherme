@@ -20,6 +20,18 @@ for i in range (var1, var2 +1):
    
 print("o valor do somatorio: ", varSoma)
 
+#Questão 04
+
+n = 10
+lista_de_numeros = []
+
+for i in range(n):
+    numeros = int(input('Digite os números da lista:'))
+    lista_de_numeros.append(numeros)
+
+soma = sum(lista_de_numeros)
+print(soma)
+
 #Questão 05
 
 valor_somatorio = 0
