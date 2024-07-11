@@ -53,5 +53,4 @@ for i in range(5):
 
     if valor % 2 == 0:
         valor_somatorio_pares += valor
-
 print("Valor somatorio é: ", valor_somatorio_pares)
