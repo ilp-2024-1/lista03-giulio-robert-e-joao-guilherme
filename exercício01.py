@@ -105,3 +105,24 @@ else:
 for i in range(1000, 3000):
     if i % 7 == 0 and i % 5 != 0:
         print(i, end = (";"))
+
+# Questão 14
+
+numero_pedido = int(input('Digite um numero:'))
+
+for i in range(1, numero_pedido+1):
+    print('*' *i)
+for i in range(numero_pedido -1, 0, -1):
+    print("*" * i)
+
+#Questão 16
+
+numero = int(input('Digite um numero:'))
+
+for i in range(1, numero):
+    if i % 7 == 0 and i % 3 == 0:
+        print(f'{i} POW')
+    elif i % 7 == 0:
+        print(f'{i} PA')
+    elif i % 3 == 0:
+        print(f'{i} PI')
