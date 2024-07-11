@@ -1,12 +1,12 @@
-#Questão 01
+# #Questão 01
 for i in range(1, 100+1, 1):
     print(i, end = (","))
 
-#Questão 02
+# #Questão 02
 for i in range(100, 1-1, - 1):
     print(i, end=(" ,"))
 
-#Questão 03
+# #Questão 03
 
 var1 = int(input("Digite o primeiro valor: "))
 var2 = int(input("Digite o segundo valor: "))
@@ -20,7 +20,7 @@ for i in range (var1, var2 +1):
    
 print("o valor do somatorio: ", varSoma)
 
-#Questão 04
+# #Questão 04
 
 n = 10
 lista_de_numeros = []
@@ -32,7 +32,7 @@ for i in range(n):
 soma = sum(lista_de_numeros)
 print(soma)
 
-#Questão 05
+# #Questão 05
 
 valor_somatorio = 0
 
@@ -44,7 +44,7 @@ for i in range (5):
 
 print(valor_somatorio)
 
-#Questão 06
+# #Questão 06
 
 somatorio = 0
 
@@ -67,7 +67,7 @@ for i in range(5):
         valor_somatorio_pares += valor
 print("Valor somatorio é: ", valor_somatorio_pares)
 
-#Questão 08
+# #Questão 08
 
 quantidade_de_valores_digitados = int(input('Quantos valores serão colocados?'))
 lista_de_valores = []
@@ -100,3 +100,8 @@ else:
     print('Somatório dos números ímpares é menor que o dos números pares.')
 
 
+#Questão 12
+
+for i in range(1000, 3000):
+    if i % 7 == 0 and i % 5 != 0:
+        print(i, end = (";"))
