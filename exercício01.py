@@ -79,3 +79,24 @@ for i in range(quantidade_de_valores_digitados):
 
 print(lista_de_valores)
 
+#Questão 10
+
+numero_de_repetiçoes = 10
+somatorio_par = 0
+somatorio_impar = 0
+
+for i in range(numero_de_repetiçoes):
+    valores_inteiros = int(input('Digite os valores:'))
+    if valores_inteiros % 2 == 0:
+        somatorio_par += valores_inteiros
+    else:
+        somatorio_impar += valores_inteiros
+
+if somatorio_impar > somatorio_par:
+    print('Somatório dos números ímpares é maior')
+elif somatorio_impar == somatorio_par:
+    print('Somatório dos número ímpares é igual ao dos números pares.')
+else:
+    print('Somatório dos números ímpares é menor que o dos números pares.')
+
+
